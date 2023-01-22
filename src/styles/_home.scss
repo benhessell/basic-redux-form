@@ -1,0 +1,68 @@
+.home-page {
+    // text-align: center;
+}
+
+.button-a {
+    color: $color-primary;
+    background-color: transparent;
+    border: 2px solid $color-primary;
+    border-radius: 0px;
+    padding: 5px 10px;
+    display: inline;
+    margin: 0px 10px;
+
+    &:hover {
+        color: white;
+        background-color: $color-primary;
+    }
+
+    &:active {
+        color: white;
+        background-color: $color-primary;
+        text-decoration: white 2px underline;
+    }
+}
+
+.back-button {
+    text-decoration: none;
+    font-size: 25px;
+    border: 1px black solid;
+    padding: 0px 10px;
+
+    &:hover {
+        background-color: $color-primary;
+        color: white;
+    }
+}
+
+.form-buttons {
+    padding-bottom: 30px;
+}
+
+.inputfield_container {
+    margin-bottom: 20px;
+    padding: 0 10px;
+    width: 100%;
+    box-sizing: border-box;
+
+    .inputfield_label {
+        display: block;
+        margin-bottom: 3px;
+        font-size: 18px;
+    }
+
+    .inputfield {
+        height: 30px;
+        width: 100%;
+        font-size: 16px;
+        border-radius: 0;
+        border: 1px black solid;
+        padding-left: 8px;
+        box-sizing: border-box;
+    }
+
+    .inputfield-error {
+        background-color: rgb(243, 213, 213);
+        border: 2px solid rgb(158, 20, 20);
+    }
+}
